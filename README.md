@@ -4,7 +4,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ## Screenshots
 
-### Polybar
+### Polybar (3 examples)
 
 ![bar_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_1.png)
 ![bar_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_2.png)
