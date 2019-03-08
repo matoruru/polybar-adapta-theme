@@ -1,6 +1,6 @@
 # Polybar-Adapta-theme
 
-A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guidelines**, and influenced by adi1090x/polybar-themes.
+A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guidelines**.
 
 ## Screenshots
 
