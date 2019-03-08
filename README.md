@@ -49,7 +49,7 @@ From the left,
 It is very good features. You can get whether there is some package updates or not.
 If you can see **"smile" and 0**, there is **no package updates**. In the opposite, **"frown (not smile)" and greater than 0**, there is **some package updates**.
 
-| Some package updates | Or not |
+| Some packages need update | Or not |
 | :--: | :--: |
 | ![app_icons](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/updated.png) | ![app_icons](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/notupdated.png) |
 
