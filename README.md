@@ -25,6 +25,13 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 ![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty.png)
 
 
+## Installation
+
+1. Clone this repository
+2. Copy polybar/* to ~/.config/polybar/
+
+And then just execute "bash ~/.config/polybar/launch.sh".
+
 ## Features
 
 - App icons
