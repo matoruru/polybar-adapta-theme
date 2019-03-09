@@ -6,22 +6,23 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ### Polybar (3 examples)
 
-![bar_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_1.png)
-![bar_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_2.png)
-![bar_3](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_3.png)
-![bar_4](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_4.png)
+![bar_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_1.png)
+![bar_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_2.png)
+![bar_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_3.png)
+![bar_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_4.png)
 
 ### Polybar with some windows
 
-![screenshot_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_1.png)
-![screenshot_4](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_4.png)
+![screenshot_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_1.png)
+![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_4.png)
 
 ### Polybar with no windows and wallpaper
-![screenshot_3](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_3.png)
+
+![screenshot_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_3.png)
 
 ### Polybar with no windows and [good wallpaper](https://github.com/matoruru/arch-tools/blob/master/Pictures/ruru.png)
 
-![screenshot_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_empty.png)
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty.png)
 
 
 ## Features
@@ -39,7 +40,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ### App icons
 
-![app_icons](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/app_icons.png)
+![app_icons](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/app_icons.png)
 
 From the left,
 - Apple icon
@@ -58,7 +59,7 @@ If you can see **"smile" and 0**, there is **no package updates**. In the opposi
 
 | Some packages need update | Or not |
 | :--: | :--: |
-| ![updated](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/notupdated.png) |
+| ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) |
 
 You will come to update to make this face smile, I think!
 
@@ -69,7 +70,7 @@ Like below images,
 
 | Muted | Too quiet or good | A bit loud (Warning) | Too loud (Danger!) |
 | :---: | :---------------: | :------------------: | :----------------: |
-| ![volume_muted](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_muted.png) | ![volume_normal](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_normal.png) | ![volume_yellos](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_yellow.png) | ![volume_red](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_red.png) |
+| ![volume_muted](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_muted.png) | ![volume_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_normal.png) | ![volume_yellos](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_yellow.png) | ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_red.png) |
 
 ### Battery status monitor
 
@@ -78,7 +79,7 @@ Like below images,
 
 | Charging | Good | Low battery | Too low battery |
 | :------: | :--: | :---------: | :-------------: |
-| ![battery_charing](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/battery_charging.png) | ![battery_normal](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/battery_normal.png) | ![battery_yellow](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/battery_yellow.png) | ![battery_red](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/battery_red.png) |
+| ![battery_charing](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_charging.png) | ![battery_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_normal.png) | ![battery_yellow](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_yellow.png) | ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_red.png) |
 
 ## Conclusion
 
