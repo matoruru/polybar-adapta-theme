@@ -241,13 +241,13 @@ bar-volume-empty-foreground = ${colors.adapta-grey}
 [module/wlan]
 type = internal/network
 interface = wlp2s0
-interval = 1
+interval = 0.1
 format-connected = <label-connected>
 ;format-connected-background = ${colors.shade2}
 format-connected-underline = ${colors.adapta-cyan}
 format-connected-padding = 1
-label-connected =  %upspeed%  %downspeed%
-;label-connected =  %upspeed%  %downspeed%
+label-connected =  %upspeed:9%  %downspeed:9%
+;label-connected =  %upspeed:9%  %downspeed:9%
 
 format-disconnected = <label-disconnected>
 format-disconnected-padding = 1
@@ -284,7 +284,7 @@ format-prefix = " "
 format-underline = ${colors.adapta-cyan}
 ;format-margin = ${margin.for-modules}
 format-padding = 1
-label = %percentage_used%%
+label = %percentage_used:2%%
 
 [module/battery]
 type = internal/battery
@@ -301,7 +301,7 @@ format-discharging = <ramp-capacity> <label-discharging>
 ;format-discharging-background = ${colors.shade2}
 format-discharging-underline = ${colors.adapta-cyan}
 format-discharging-padding = 1
-label-discharging = %percentage%%
+label-discharging = %percentage:2%%
 format-full = <label-full>
 ;format-full-background = ${colors.shade2}
 format-full-underline = ${colors.adapta-cyan}
