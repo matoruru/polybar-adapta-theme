@@ -1,24 +1,10 @@
-;==========================================================
-;
-;
-;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
-;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
-;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
-;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
-;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
-;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-;
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/jaagr/polybar
-;
-;   The README contains alot of information
-;
-;==========================================================
+;====My Polybar Settings===================================
 
-; adapta's color
+
+
+
+;====General Settings======================================
 [colors]
-
 bg = #222D32
 fg = #CFD8DC
 adapta-cyan = #00BCD4
@@ -28,42 +14,58 @@ adapta-lightgreen = #4DB6AC
 adapta-green = #009688
 adapta-grey = #475359
 
-
 [margin]
 for-modules = 1
-
 
 [bar/main]
 width = 100%
 height = 22
 fixed-center = true
 line-size = 2
-
 background = ${colors.bg}
 foreground = ${colors.fg}
-
 font-0 = "Fantasque Sans Mono:pixelsize=10;3"
 font-1 = "Iosevka Nerd Font:pixelsize=14;3"
-
 cursor-click = pointer
+;==========================================================
 
-modules-left = arch explorer workspaces google amazon github reddit facebook youtube
+
+
+;====Module settings+======================================
+modules-left = windows explorer workspaces google amazon github reddit facebook youtube
 modules-center = date
-modules-right = mpd pkg xbacklight volume wlan memory battery powermenu
+modules-right = mpd pkg xbacklight volume wlan cpu-graph memory battery powermenu
+;==========================================================
 
 
 
+;====Left modules==========================================
 [module/arch]
 type = custom/text
-content = 
-;content = 
-;content = 
+content = 
 content-padding = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 ;click-left = rmenu_1
 ;click-right = rmenu_wi_1
 
+[module/apple]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
+;click-left = rmenu_1
+;click-right = rmenu_wi_1
+
+[module/windows]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
+;click-left = rmenu_1
+;click-right = rmenu_wi_1
 
 [module/workspaces]
 type = internal/xworkspaces
@@ -71,7 +73,6 @@ pin-workspaces = false
 enable-click = true
 enable-scroll = true
 format-padding = 1
-
 ;icon-0 = 1;❶
 ;icon-1 = 2;❷
 ;icon-2 = 3;❸
@@ -82,21 +83,17 @@ format-padding = 1
 ;icon-7 = 8;❽
 ;icon-8 = 9;❾
 ;icon-9 = 10;❿
-
 icon-default = 
-
 format = <label-state>
 ;format-background = ${colors.shade2}
 label-active = 
 label-occupied = 
 label-urgent = 
 label-empty = 
-
 label-empty-padding = 1
 label-active-padding = 1
 label-urgent-padding = 1
 label-occupied-padding = 1
-
 label-empty-foreground = ${colors.fg}
 ;label-active-foreground = ${colors.}
 ;label-urgent-foreground = ${colors.}
@@ -154,7 +151,25 @@ content = 
 content-padding = 1
 content-foreground = ${colors.fg}
 click-left = xdg-open https://www.youtube.com/
+;==========================================================
 
+
+
+;====Center modules========================================
+[module/date]
+type = internal/date
+interval = 1
+label =  %time%
+label-padding = 1
+;label-background = ${colors.shade1}
+label-underline = ${colors.adapta-cyan}
+time =   %a %d %b %Y %T
+label-margin = ${margin.for-modules}
+;==========================================================
+
+
+
+;====Right modules=========================================
 [module/mpd]
 type = internal/mpd
 format-online = <toggle> <label-song>
@@ -163,36 +178,28 @@ format-online = <toggle> <label-song>
 format-online-foreground = ${colors.ashade9}
 ;format-online-background = ${colors.shade1}
 format-online-padding = 1
-
 icon-play = 喇
 icon-pause = 
-
 label-song-maxlen = 25
 label-song-ellipsis = true
-
 format-online-margin = ${margin.for-modules}
 
 [module/pkg]
 type = custom/script
 exec = bash ~/.config/polybar/updates.sh
-
 ;format-background = ${colors.shade2}
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 tail = true
-
-;format-margin = ${margin.for-modules}
-
+format-margin = ${margin.for-modules}
 
 [module/xbacklight]
 type = internal/xbacklight
-
 format = <label> <bar>
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 label = 
-
-bar-width = 10
+bar-width = 8
 bar-indicator = 
 bar-indicator-foreground = ${colors.adapta-lightgreen}
 bar-indicator-font = 0
@@ -202,29 +209,26 @@ bar-fill-foreground = ${colors.adapta-lightgreen}
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.adapta-grey}
-
-format-margin = ${margin.for-modules}
+;format-margin = ${margin.for-modules}
 
 [module/volume]
 type = internal/alsa
-
 format-volume = <label-volume> <bar-volume>
 format-volume-underline = ${colors.adapta-cyan}
 format-volume-padding = 1
 label-volume = 墳
-
 label-muted = 婢
 label-muted-underline = ${colors.adapta-cyan}
 label-muted-padding = 1
-
-bar-volume-width = 10
+bar-volume-width = 8
 bar-volume-foreground-0 = ${colors.adapta-lightgreen}
 bar-volume-foreground-1 = ${colors.adapta-lightgreen}
 bar-volume-foreground-2 = ${colors.adapta-lightgreen}
 bar-volume-foreground-3 = ${colors.adapta-lightgreen}
-bar-volume-foreground-4 = ${colors.adapta-yellow}
-bar-volume-foreground-5 = ${colors.adapta-red}
-bar-volume-foreground-6 = ${colors.adapta-red}
+bar-volume-foreground-4 = ${colors.adapta-lightgreen}
+bar-volume-foreground-5 = ${colors.adapta-yellow}
+bar-volume-foreground-6 = ${colors.adapta-yellow}
+bar-volume-foreground-7 = ${colors.adapta-red}
 bar-volume-gradient = false
 bar-volume-indicator = 
 bar-volume-indicator-foreground = ${colors.adapta-lightgreen}
@@ -234,10 +238,8 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.adapta-grey}
-
-;format-muted-margin = ${margin.for-modules}
-;format-volume-margin = ${margin.for-modules}
-
+format-muted-margin = ${margin.for-modules}
+format-volume-margin = ${margin.for-modules}
 
 [module/wlan]
 type = internal/network
@@ -249,38 +251,49 @@ format-connected-underline = ${colors.adapta-cyan}
 format-connected-padding = 1
 label-connected =  %upspeed:9%  %downspeed:9%
 ;label-connected =  %upspeed:9%  %downspeed:9%
-
 format-disconnected = <label-disconnected>
 format-disconnected-padding = 1
 format-disconnected-underline = ${colors.adapta-cyan}
 label-disconnected = 睊
+;format-connected-margin = ${margin.for-modules}
+;format-disconnected-margin = ${margin.for-modules}
 
-format-connected-margin = ${margin.for-modules}
-format-disconnected-margin = ${margin.for-modules}
+[module/cpu-value]
+type = internal/cpu
+interval = 0.1
+format-prefix = " "
+format-underline = ${colors.adapta-cyan}
+format-margin = ${margin.for-modules}
+format-padding = 1
+label = %percentage:2%%
 
-[module/date]
-type = internal/date
-interval = 1
-label =  %time%
-label-padding = 1
-;label-background = ${colors.shade1}
-label-underline = ${colors.adapta-cyan}
-time =   %a %d %b %Y %T
-
-label-margin = ${margin.for-modules}
-
-;[module/cpu]
-;type = internal/cpu
-;interval = 2
-;format-prefix = " "
-;format-underline = ${colors.adapta-cyan}
-;format-margin = ${margin.for-modules}
-;format-padding = 1
-;label = %percentage:2%%
+[module/cpu-graph]
+type = internal/cpu
+interval = 0.08
+format = " <ramp-coreload>"
+format-underline = ${colors.adapta-cyan}
+format-margin = ${margin.for-modules}
+format-padding = 1
+ramp-coreload-0 = ▁
+ramp-coreload-0-foreground = ${colors.adapta-cyan}
+ramp-coreload-1 = ▂
+ramp-coreload-1-foreground = ${colors.adapta-green}
+ramp-coreload-2 = ▃
+ramp-coreload-2-foreground = ${colors.adapta-lightgreen}
+ramp-coreload-3 = ▄
+ramp-coreload-3-foreground = ${colors.adapta-lightgreen}
+ramp-coreload-4 = ▅
+ramp-coreload-4-foreground = ${colors.adapta-yellow}
+ramp-coreload-5 = ▆
+ramp-coreload-5-foreground = ${colors.adapta-yellow}
+ramp-coreload-6 = ▇
+ramp-coreload-6-foreground = ${colors.adapta-red}
+ramp-coreload-7 = █
+ramp-coreload-7-foreground = ${colors.adapta-red}
 
 [module/memory]
 type = internal/memory
-interval = 2
+interval = 0.1
 format-prefix = " "
 format-underline = ${colors.adapta-cyan}
 ;format-margin = ${margin.for-modules}
@@ -290,7 +303,6 @@ label = %percentage_used:2%%
 [module/battery]
 type = internal/battery
 full-at = 99
-time-format = %H:%M
 battery = CMB0
 adapter = ADP1
 format-charging = <animation-charging> <label-charging>
@@ -299,19 +311,15 @@ format-charging-underline = ${colors.adapta-cyan}
 format-charging-padding = 1
 label-charging = %percentage%%
 format-discharging = <ramp-capacity> <label-discharging>
-;format-discharging-background = ${colors.shade2}
 format-discharging-underline = ${colors.adapta-cyan}
 format-discharging-padding = 1
 label-discharging = %percentage:2%%
 format-full = <label-full>
-;format-full-background = ${colors.shade2}
 format-full-underline = ${colors.adapta-cyan}
 format-full-padding = 1
-
 format-charging-margin = ${margin.for-modules}
 format-discharging-margin = ${margin.for-modules}
 format-full-margin = ${margin.for-modules}
-
 format-full-prefix = " "
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -323,17 +331,13 @@ ramp-capacity-6 = 
 ramp-capacity-7 = 
 ramp-capacity-8 = 
 ramp-capacity-9 = 
-
 ramp-capacity-0-foreground = ${colors.adapta-red}
 ramp-capacity-1-foreground = ${colors.adapta-red}
 ramp-capacity-2-foreground = ${colors.adapta-red}
 ramp-capacity-3-foreground = ${colors.adapta-red}
 ramp-capacity-4-foreground = ${colors.adapta-yellow}
 ramp-capacity-5-foreground = ${colors.adapta-yellow}
-
 ramp-capacity-foreground   = ${colors.fg}
-bar-capacity-width = 10
-
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
@@ -341,9 +345,8 @@ animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-5 = 
 animation-charging-6 = 
-
+animation-charging-foreground = ${colors.fg}
 animation-charging-framerate = 750
-
 
 [module/powermenu]
 type = custom/text
@@ -354,3 +357,4 @@ content-underline = ${colors.adapta-cyan}
 content-foreground = ${colors.fg}
 click-left = pmenu_1
 click-right = pmenu_1
+;==========================================================
