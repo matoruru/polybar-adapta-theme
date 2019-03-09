@@ -14,7 +14,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 ### Polybar with some windows
 
 ![screenshot_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_1.png)
-![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_4.png)
+![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_5.png)
 
 ### Polybar with no windows and wallpaper
 
