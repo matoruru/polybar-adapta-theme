@@ -4,25 +4,11 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ## Screenshots
 
-### Polybar (4 examples)
-
-![bar_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_1.png)
-![bar_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_2.png)
-![bar_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_3.png)
-![bar_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_4.png)
-
-### Polybar with some windows
-
 ![screenshot_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_1.png)
-![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_5.png)
-
-### Polybar with no windows and wallpaper
-
+![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_2.png)
 ![screenshot_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_3.png)
-
-### Polybar with no windows and [good wallpaper](https://github.com/matoruru/arch-tools/blob/master/Pictures/ruru.png)
-
-![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty.png)
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_1.png)
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_2.png)
 
 
 ## Installation
