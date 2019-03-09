@@ -9,12 +9,17 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 ![bar_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_1.png)
 ![bar_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_2.png)
 ![bar_3](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_3.png)
+![bar_4](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_4.png)
 
-### Polybar and other windows
+### Polybar with some windows
 
 ![screenshot_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_1.png)
+![screenshot_4](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_4.png)
 
-### Polybar, no windows and [good wallpaper](https://github.com/matoruru/arch-tools/blob/master/Pictures/ruru.png)
+### Polybar with no windows and wallpaper
+![screenshot_3](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_3.png)
+
+### Polybar with no windows and [good wallpaper](https://github.com/matoruru/arch-tools/blob/master/Pictures/ruru.png)
 
 ![screenshot_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/screenshot_empty.png)
 
@@ -28,7 +33,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 - ALSA volume controls slider
 - Network connection details, inbound and outbound speeds
 - Memory usage monitor
-- Remaining Battery monitor
+- Battery status monitor
 - Workspace display (**TODO**)
 - CPU and memory load indicator (**TODO**)
 
@@ -48,7 +53,7 @@ From the left,
 
 ### Package update monitor
 
-It is very good features. You can get whether there is some package updates or not.
+It is very good feature I think. You can get whether there is some package updates or not.
 If you can see **"smile" and 0**, there is **no package updates**. In the opposite, **"frown (not smile)" and greater than 0**, there is **some package updates**.
 
 | Some packages need update | Or not |
@@ -66,7 +71,7 @@ Like below images,
 | :---: | :---------------: | :------------------: | :----------------: |
 | ![volume_muted](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_muted.png) | ![volume_normal](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_normal.png) | ![volume_yellos](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_yellow.png) | ![volume_red](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/volume_red.png) |
 
-### Remaining Battery monitor
+### Battery status monitor
 
 You can see how much remains battery by the color and the value.
 Like below images,
