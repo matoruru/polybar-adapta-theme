@@ -4,7 +4,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ## Screenshots
 
-### Polybar (3 examples)
+### Polybar (4 examples)
 
 ![bar_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_1.png)
 ![bar_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_2.png)
@@ -61,7 +61,7 @@ If you can see **"smile" and 0**, there is **no package updates**. In the opposi
 | :--: | :--: |
 | ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) |
 
-You will come to update to make this face smile, I think!
+You will come to want to update to make this face smile, I think!
 
 ### ALSA volume controls slider
 
