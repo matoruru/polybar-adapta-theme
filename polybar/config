@@ -16,15 +16,16 @@
 ;
 ;==========================================================
 
-[colors]
 ; adapta's color
-bg = #263238
-fg = #CFD8DC
+[colors]
 
+bg = #222D32
+fg = #CFD8DC
 adapta-cyan = #00BCD4
 adapta-red = #FF5252
-adapta-yellow = #FFA500
-adapta-green = #5bc9a5
+adapta-yellow = #FFB224
+adapta-lightgreen = #4DB6AC
+adapta-green = #009688
 adapta-grey = #475359
 
 
@@ -193,11 +194,11 @@ label = 
 
 bar-width = 10
 bar-indicator = 
-bar-indicator-foreground = ${colors.adapta-green}
+bar-indicator-foreground = ${colors.adapta-lightgreen}
 bar-indicator-font = 0
 bar-fill = ─
 bar-fill-font = 2
-bar-fill-foreground = ${colors.adapta-green}
+bar-fill-foreground = ${colors.adapta-lightgreen}
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.adapta-grey}
@@ -217,16 +218,16 @@ label-muted-underline = ${colors.adapta-cyan}
 label-muted-padding = 1
 
 bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.adapta-green}
-bar-volume-foreground-1 = ${colors.adapta-green}
-bar-volume-foreground-2 = ${colors.adapta-green}
-bar-volume-foreground-3 = ${colors.adapta-green}
+bar-volume-foreground-0 = ${colors.adapta-lightgreen}
+bar-volume-foreground-1 = ${colors.adapta-lightgreen}
+bar-volume-foreground-2 = ${colors.adapta-lightgreen}
+bar-volume-foreground-3 = ${colors.adapta-lightgreen}
 bar-volume-foreground-4 = ${colors.adapta-yellow}
 bar-volume-foreground-5 = ${colors.adapta-red}
 bar-volume-foreground-6 = ${colors.adapta-red}
 bar-volume-gradient = false
 bar-volume-indicator = 
-bar-volume-indicator-foreground = ${colors.adapta-green}
+bar-volume-indicator-foreground = ${colors.adapta-lightgreen}
 bar-volume-indicator-font = 0
 bar-volume-fill = ─
 bar-volume-fill-font = 2
