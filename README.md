@@ -9,6 +9,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 ![bar_1](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_1.png)
 ![bar_2](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_2.png)
 ![bar_3](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_3.png)
+![bar_4](https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/img/bar_4.png)
 
 ### Polybar with some windows
 
