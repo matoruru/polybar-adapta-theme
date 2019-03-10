@@ -57,6 +57,7 @@ If you can see **"smile" and 0**, there is **no package updates**. In the opposi
 | ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) |
 
 This animation is when frown face change into smile,
+
 ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-frown-smile.gif)
 
 You will come to want to update to make this face smile, I think!
