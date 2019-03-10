@@ -27,6 +27,7 @@ background = ${colors.bg}
 foreground = ${colors.fg}
 font-0 = "Fantasque Sans Mono:pixelsize=10;3"
 font-1 = "Iosevka Nerd Font:pixelsize=14;3"
+font-2 = "Iosevka Nerd Font:pixelsize=11;3"
 cursor-click = pointer
 ;==========================================================
 
@@ -291,6 +292,7 @@ ramp-coreload-6 = ▇
 ramp-coreload-6-foreground = ${colors.adapta-red}
 ramp-coreload-7 = █
 ramp-coreload-7-foreground = ${colors.adapta-red}
+ramp-coreload-font = 3
 
 [module/memory]
 type = internal/memory
