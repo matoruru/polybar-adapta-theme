@@ -4,26 +4,14 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 
 ## Screenshots
 
-### Polybar (4 examples)
-
-![bar_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_1.png)
-![bar_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_2.png)
-![bar_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_3.png)
-![bar_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/bar_4.png)
-
-### Polybar with some windows
-
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_1.png)
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_2.png)
 ![screenshot_1](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_1.png)
-![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_5.png)
-
-### Polybar with no windows and wallpaper
-
+![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_2.png)
 ![screenshot_3](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_3.png)
 
-### Polybar with no windows and [good wallpaper](https://github.com/matoruru/arch-tools/blob/master/Pictures/ruru.png)
-
-![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty.png)
-
+## Capture animation (right side)
+![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation.gif)
 
 ## Installation
 
@@ -40,10 +28,10 @@ And then just execute "bash ~/.config/polybar/launch.sh".
 - Backlight level controls slider
 - ALSA volume controls slider
 - Network connection details, inbound and outbound speeds
+- CPUs usage monitor
 - Memory usage monitor
 - Battery status monitor
 - Workspace display (**TODO**)
-- CPU and memory load indicator (**TODO**)
 
 ### App icons
 
@@ -79,6 +67,20 @@ Like below images,
 | :---: | :---------------: | :------------------: | :----------------: |
 | ![volume_muted](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_muted.png) | ![volume_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_normal.png) | ![volume_yellos](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_yellow.png) | ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_red.png) |
 
+### Network connection details, inbound and outbound speeds
+
+You can get information about network usage and speed, like below animation,
+
+![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-network-speed.gif)
+
+
+### CPUs usage monitor
+
+You can get information about CPUs usage easily and immediately, like below animation.
+
+![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-cpus.gif)
+
+
 ### Battery status monitor
 
 You can see how much remains battery by the color and the value.
@@ -87,6 +89,8 @@ Like below images,
 | Charging | Good | Low battery | Too low battery |
 | :------: | :--: | :---------: | :-------------: |
 | ![battery_charing](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_charging.png) | ![battery_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_normal.png) | ![battery_yellow](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_yellow.png) | ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_red.png) |
+
+And, ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-charging.gif) is charging animation.
 
 ## Conclusion
 
