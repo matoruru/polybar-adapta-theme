@@ -188,12 +188,13 @@ format-online-margin = ${margin.for-modules}
 
 [module/pkg]
 type = custom/script
-exec = bash ~/.config/polybar/updates.sh
+exec = bash ~/.config/polybar/checkupdates.sh
 ;format-background = ${colors.shade2}
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 tail = true
 format-margin = ${margin.for-modules}
+click-left = urxvtc -e bash ~/.config/polybar/updates.sh
 
 [module/xbacklight]
 type = internal/xbacklight
