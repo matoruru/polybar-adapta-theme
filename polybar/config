@@ -34,7 +34,7 @@ cursor-click = pointer
 
 
 ;====Module settings+======================================
-modules-left = windows explorer workspaces google amazon github reddit facebook youtube
+modules-left = windows explorer google amazon github reddit facebook youtube workspaces-xmonad
 modules-center = date
 modules-right = mpd pkg xbacklight volume wlan cpu-graph memory battery powermenu
 ;==========================================================
@@ -68,6 +68,15 @@ content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
 ;click-left = rmenu_1
 ;click-right = rmenu_wi_1
+
+[module/workspaces-xmonad]
+type = custom/script
+exec = tail -F /tmp/.xmonad-workspace-log
+exec-if = [ -p /tmp/.xmonad-workspace-log ]
+tail = true
+format-underline = ${colors.adapta-cyan}
+format-padding = 1
+;format-margin = ${margin.for-modules}
 
 [module/workspaces]
 type = internal/xworkspaces
@@ -106,21 +115,27 @@ type = custom/text
 content = 
 ;content = 
 content-padding = 1
+content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = nautilus
 
 [module/google]
 type = custom/text
 content = 
 content-padding = 1
+;content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.google.com/
 
 [module/amazon]
 type = custom/text
 content = 
 content-padding = 1
+content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.amazon.co.jp/
 ;click-left = xdg-open https://www.amazon.com/
 
@@ -128,7 +143,9 @@ click-left = xdg-open https://www.amazon.co.jp/
 type = custom/text
 content = 
 content-padding = 1
+;content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.github.com/
 
 [module/reddit]
@@ -136,14 +153,18 @@ type = custom/text
 content = 
 ;content = 
 content-padding = 1
+content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.reddit.com/
 
 [module/facebook]
 type = custom/text
 content = 
 content-padding = 1
+;content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.facebook.com/
 
 [module/youtube]
@@ -151,7 +172,9 @@ type = custom/text
 content = 
 ;content = 
 content-padding = 1
+content-margin = 1
 content-foreground = ${colors.fg}
+content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.youtube.com/
 ;==========================================================
 
@@ -194,7 +217,7 @@ format-underline = ${colors.adapta-cyan}
 format-padding = 1
 tail = true
 format-margin = ${margin.for-modules}
-click-left = urxvtc -e bash ~/.config/polybar/updates.sh
+click-left = kitty bash ~/.config/polybar/updates.sh
 
 [module/xbacklight]
 type = internal/xbacklight
