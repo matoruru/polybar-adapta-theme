@@ -5,6 +5,9 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme based on Material Design Guid
 ## Capture animation (right side)
 ![right_animation](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation.gif)
 
+## Capture animation (left side)
+![left_animation](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-workspaces.gif)
+
 ## Screenshots
 
 ![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_1.png)
@@ -28,7 +31,7 @@ And then just execute "bash ~/.config/polybar/launch.sh".
 - CPUs usage monitor
 - Memory usage monitor
 - Battery status monitor
-- Workspace display (**TODO**)
+- Workspace display
 
 ### App icons
 
@@ -92,6 +95,19 @@ Like below images,
 | ![battery_charing](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_charging.png) | ![battery_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_normal.png) | ![battery_yellow](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_yellow.png) | ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_red.png) |
 
 And, ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-charging.gif) is charging animation.
+
+
+### Workspace display
+This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
+
+This feature is like below images and table. 
+
+![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
+
+| You are at | some windows exists | empty |
+| :------: | :--: | :---------: |
+| ![workspaces_now](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_now.png) | ![workspaces_exists](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_exists.png) | ![workspaces_empty](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_empty.png) |
+
 
 ## Conclusion
 
