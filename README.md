@@ -47,6 +47,22 @@ From the left,
 - ...
 - ..., remainings is as it is you see!
 
+
+
+### Workspace display
+This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
+
+This feature is like below images and table. 
+
+![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
+
+| You are at | Some windows exists | Empty |
+| :------: | :--: | :---------: |
+| ![workspaces_now](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_now.png) | ![workspaces_exists](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_exists.png) | ![workspaces_empty](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_empty.png) |
+
+
+
+
 ### Package update monitor
 
 It is very good feature I think. You can get whether there is some package updates or not.
@@ -95,18 +111,6 @@ Like below images,
 | ![battery_charing](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_charging.png) | ![battery_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_normal.png) | ![battery_yellow](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_yellow.png) | ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/battery_red.png) |
 
 And, ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-charging.gif) is charging animation.
-
-
-### Workspace display
-This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
-
-This feature is like below images and table. 
-
-![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
-
-| You are at | Some windows exists | Empty |
-| :------: | :--: | :---------: |
-| ![workspaces_now](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_now.png) | ![workspaces_exists](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_exists.png) | ![workspaces_empty](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_empty.png) |
 
 
 ## Conclusion
