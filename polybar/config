@@ -36,7 +36,7 @@ cursor-click = pointer
 ;====Module settings+======================================
 modules-left = windows explorer google amazon github reddit facebook youtube workspaces-xmonad
 modules-center = date
-modules-right = mpd pkg xbacklight volume wlan cpu-graph memory battery powermenu
+modules-right = pkg xbacklight volume wlan cpu-graph memory battery powermenu
 ;==========================================================
 
 
@@ -195,20 +195,6 @@ label-margin = ${margin.for-modules}
 
 
 ;====Right modules=========================================
-[module/mpd]
-type = internal/mpd
-format-online = <toggle> <label-song>
-;format-online =  <label-song>
-;alt icons =   
-format-online-foreground = ${colors.ashade9}
-;format-online-background = ${colors.shade1}
-format-online-padding = 1
-icon-play = 喇
-icon-pause = 
-label-song-maxlen = 25
-label-song-ellipsis = true
-format-online-margin = ${margin.for-modules}
-
 [module/pkg]
 type = custom/script
 exec = bash ~/.config/polybar/checkupdates.sh
