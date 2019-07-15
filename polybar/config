@@ -204,6 +204,7 @@ format-padding = 1
 tail = true
 format-margin = ${margin.for-modules}
 click-left = kitty bash ~/.config/polybar/updates.sh
+interval = 3600
 
 [module/xbacklight]
 type = internal/xbacklight
