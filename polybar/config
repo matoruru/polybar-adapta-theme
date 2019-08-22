@@ -201,7 +201,6 @@ exec = bash ~/.config/polybar/checkupdates.sh
 ;format-background = ${colors.shade2}
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
-tail = true
 format-margin = ${margin.for-modules}
 click-left = kitty bash ~/.config/polybar/updates.sh
 interval = 3600
