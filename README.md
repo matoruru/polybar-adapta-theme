@@ -2,6 +2,27 @@
 
 A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelines**.
 
+## Table of Contents
+
+<!-- vim-markdown-toc GFM -->
+
+* [Capture animation (right side)](#capture-animation-right-side)
+* [Capture animation (left side)](#capture-animation-left-side)
+* [Screenshots](#screenshots)
+* [Installation](#installation)
+* [Features](#features)
+  * [App icons](#app-icons)
+  * [Workspace display](#workspace-display)
+  * [Package update monitor](#package-update-monitor)
+  * [ALSA volume controls slider](#alsa-volume-controls-slider)
+  * [Network connection monitor, inbound/outbound speeds](#network-connection-monitor-inboundoutbound-speeds)
+  * [CPU monitor](#cpu-monitor)
+  * [Battery monitor](#battery-monitor)
+* [Contribution](#contribution)
+* [Conclusion](#conclusion)
+
+<!-- vim-markdown-toc -->
+
 ## Capture animation (right side)
 ![right_animation](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation.gif)
 
@@ -22,16 +43,13 @@ And then just execute "bash ~/.config/polybar/launch.sh".
 
 ## Features
 
-- App icons
-- Workspace display
-- Date and time label, based on British format
-- Package update monitor
-- Backlight level controls slider
-- ALSA volume controls slider
-- Network connection monitor, inbound/outbound speeds
-- CPU monitor
-- Memory monitor
-- Battery monitor
+* [App icons](#app-icons)
+* [Workspace display](#workspace-display)
+* [Package update monitor](#package-update-monitor)
+* [ALSA volume controls slider](#alsa-volume-controls-slider)
+* [Network connection monitor, inbound/outbound speeds](#network-connection-monitor-inboundoutbound-speeds)
+* [CPU monitor](#cpu-monitor)
+* [Battery monitor](#battery-monitor)
 
 ### App icons
 
@@ -112,7 +130,7 @@ Like below images,
 
 And, ![battery_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-charging.gif) is charging animation. Connect to AC adapter to see this animation.
 
-### Contribution
+## Contribution
 
 Feel free to raise your issue and PR. 😊
 
