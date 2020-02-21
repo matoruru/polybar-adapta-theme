@@ -84,7 +84,7 @@ This feature is like below images and table.
 ### Package update monitor
 
 It is very good feature I think. You can get whether there is some package updates or not.
-If you see **"smile" and 0**, it means **no package updates found**. On the other hand if you see **"frown (not smile)" and greater than 0**, it means **some package updates found**.
+If you see **"smile" and 0**, it means **no package updates found**. On the other hand if you see **"frown (not smile)" and more than 0**, it means **some package updates found**.
 
 | Some packages need to be updated | Latest |
 | :--: | :--: |
