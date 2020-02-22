@@ -9,11 +9,15 @@ curlFrom () {
 download () {
   mkdir -p ${DIR}
 
-  ( cd ${DIR}
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/config
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/checkupdates.sh
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/updates.sh
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/launch.sh
+  (
+    cd ${DIR}
+    
+    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/config &
+    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/checkupdates.sh &
+    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/updates.sh &
+    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/launch.sh &
+    
+    wait
   )
 }
 
