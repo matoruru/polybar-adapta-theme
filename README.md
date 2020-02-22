@@ -36,10 +36,22 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 
 ## Installation
 
-1. Clone this repository
-2. Copy polybar/* to ~/.config/polybar/
+1. Run this command below:
+    ```bash
+    # Interactive
+    bash -c "bash <(curl -s https://raw.githubusercontent.com/matoruru/polybar-adapta
+    theme/master/install.sh)"
+    ```
+    
+    **or**
+    
+    ```bash
+    # Non-interactive
+    bash -c "bash <(curl -s https://raw.githubusercontent.com/matoruru/polybar-adapta
+    theme/master/install.sh) --yes"
+    ```
 
-And then just execute "bash ~/.config/polybar/launch.sh".
+1. And then execute `bash ~/.config/polybar/launch.sh` to launch Polybar.
 
 ## Features
 
