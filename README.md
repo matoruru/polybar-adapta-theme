@@ -39,14 +39,14 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 1. Run this command below:
     ```bash
     # Interactive
-    bash -c "bash <(curl -s https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/install.sh)"
+    bash -c "bash <(curl -sL https://git.io/Jv0e4)"
     ```
     
     **or**
     
     ```bash
     # Non-interactive
-    bash -c "bash <(curl -s https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/install.sh) --yes"
+    bash -c "bash <(curl -sL https://git.io/Jv0e4) --yes"
     ```
 
 1. And then execute `bash ~/.config/polybar/launch.sh` to launch Polybar.
