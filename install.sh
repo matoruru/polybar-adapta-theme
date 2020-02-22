@@ -43,7 +43,7 @@ fi
 if [ -d "$DIR" ]; then
   echo "${DIR} directory already exists."
   while true; do
-      read -p "Do you want to delete it?" yn
+      read -p "Do you want to delete it (yes/no)?" yn
       case $yn in
           YES | Yes | yes | [Yy])
             startInstall
