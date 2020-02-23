@@ -117,7 +117,7 @@ content-padding = 1
 content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = nautilus
+click-left = nautilus &
 
 [module/google]
 type = custom/text
@@ -126,7 +126,7 @@ content-padding = 1
 ;content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.google.com/
+click-left = xdg-open https://www.google.com/ &
 
 [module/amazon]
 type = custom/text
@@ -135,7 +135,7 @@ content-padding = 1
 content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.amazon.co.jp/
+click-left = xdg-open https://www.amazon.co.jp/ &
 ;click-left = xdg-open https://www.amazon.com/
 
 [module/github]
@@ -145,7 +145,7 @@ content-padding = 1
 ;content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.github.com/
+click-left = xdg-open https://www.github.com/ &
 
 [module/reddit]
 type = custom/text
@@ -155,7 +155,7 @@ content-padding = 1
 content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.reddit.com/
+click-left = xdg-open https://www.reddit.com/ &
 
 [module/facebook]
 type = custom/text
@@ -164,7 +164,7 @@ content-padding = 1
 ;content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.facebook.com/
+click-left = xdg-open https://www.facebook.com/ &
 
 [module/youtube]
 type = custom/text
@@ -174,7 +174,7 @@ content-padding = 1
 content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
-click-left = xdg-open https://www.youtube.com/
+click-left = xdg-open https://www.youtube.com/ &
 ;==========================================================
 
 
@@ -201,7 +201,7 @@ exec = bash ~/.config/polybar/checkupdates.sh
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 format-margin = ${margin.for-modules}
-click-left = kitty bash ~/.config/polybar/updates.sh
+click-left = kitty bash ~/.config/polybar/updates.sh &
 interval = 3600
 
 [module/xbacklight]
