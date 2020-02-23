@@ -56,7 +56,7 @@ if [ -d "$DIR" ]; then
           YES | Yes | yes | [Yy])
             startInstall
             break;;
-          No  | No  | no  | [Nn])
+          NO  | No  | no  | [Nn])
             echo "Abort...";
             exit;;
           *   )
