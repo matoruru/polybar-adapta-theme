@@ -80,7 +80,7 @@ From the left,
 ### Workspace display
 This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
 
-This feature is like below images and table. 
+This feature is like the images and the table below. 
 
 ![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
 
@@ -109,7 +109,7 @@ You are going to want to update to make this face smile, I promise!
 ### ALSA volume controls slider
 
 You can see how loud the speaker sound by the color or the muted icon.
-Like below images,
+Like the images below,
 
 | Muted | Too quiet or good | A bit loud (Warning) | Too loud (Danger!) |
 | :---: | :---------------: | :------------------: | :----------------: |
@@ -117,14 +117,14 @@ Like below images,
 
 ### Network connection monitor, inbound/outbound speeds
 
-You can get information about how fast your network speed. like below animation,
+You can get information about how fast your network speed. like the animation below,
 
 ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-network-speed.gif)
 
 
 ### CPU monitor
 
-You can get information about how many and well CPUs works, easily and immediately. like below animation.
+You can get information about how many and well CPUs works, easily and immediately. like the animation below.
 
 ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-cpus.gif)
 
@@ -132,7 +132,7 @@ You can get information about how many and well CPUs works, easily and immediate
 ### Battery monitor
 
 You can see how much remains battery by the color and the value.
-Like below images,
+Like the images below,
 
 | Charging | Good | Low battery | Too low battery |
 | :------: | :--: | :---------: | :-------------: |
