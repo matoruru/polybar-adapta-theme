@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 DIR="${HOME}/.config/polybar/"
+REPO="https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/"
 
 curlFrom () {
   curl -O "$1" || echo "Download failed!"
@@ -11,13 +12,11 @@ download () {
 
   (
     cd ${DIR}
-    
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/config &
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/checkupdates.sh &
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/updates.sh &
-    curlFrom https://raw.githubusercontent.com/matoruru/polybar-adapta-theme/master/polybar/launch.sh &
-    
-    wait
+
+    curl --remote-name "${REPO}"config \
+         --remote-name "${REPO}"checkupdates.sh \
+         --remote-name "${REPO}"updates.sh \
+         --remote-name "${REPO}"launch.sh \
   )
 }
 
@@ -27,6 +26,11 @@ startInstall () {
   echo
   echo "Finished!"
   echo "Enjoy :)"
+}
+
+type curl >/dev/null 2>&1 || {
+  echo "Please make sure to have \"curl\" command on your machine."
+  exit 1
 }
 
 if [ "$#" != "0" -a "$#" != 1 ]; then
