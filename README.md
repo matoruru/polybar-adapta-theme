@@ -14,7 +14,8 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
   * [App icons](#app-icons)
   * [Workspace display](#workspace-display)
   * [Package update monitor](#package-update-monitor)
-  * [ALSA volume controls slider](#alsa-volume-controls-slider)
+  * [Backlight control slider](#backlight-control-slider)
+  * [ALSA volume control slider](#alsa-volume-control-slider)
   * [Network connection monitor, inbound/outbound speeds](#network-connection-monitor-inboundoutbound-speeds)
   * [CPU monitor](#cpu-monitor)
   * [Battery monitor](#battery-monitor)
@@ -56,7 +57,8 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 * [App icons](#app-icons)
 * [Workspace display](#workspace-display)
 * [Package update monitor](#package-update-monitor)
-* [ALSA volume controls slider](#alsa-volume-controls-slider)
+* [Backlight control slider](#backlight-control-slider)
+* [ALSA volume control slider](#alsa-volume-control-slider)
 * [Network connection monitor, inbound/outbound speeds](#network-connection-monitor-inboundoutbound-speeds)
 * [CPU monitor](#cpu-monitor)
 * [Battery monitor](#battery-monitor)
@@ -76,7 +78,6 @@ From the left,
 - ..., remainings is as it is you see!
 
 
-
 ### Workspace display
 This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
 
@@ -87,8 +88,6 @@ This feature is like the images and the table below.
 | You are at | Some windows exists | Empty |
 | :------: | :--: | :---------: |
 | ![workspaces_now](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_now.png) | ![workspaces_exists](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_exists.png) | ![workspaces_empty](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_empty.png) |
-
-
 
 
 ### Package update monitor
@@ -106,7 +105,13 @@ This animation shows you when the frown face change into smile,
 
 You are going to want to update to make this face smile, I promise!
 
-### ALSA volume controls slider
+
+### Backlight control slider
+
+Coming soon...
+
+
+### ALSA volume control slider
 
 You can see how loud the speaker sound by the color or the muted icon.
 Like the images below,
