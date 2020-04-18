@@ -45,7 +45,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
     **or**
     
     ```bash
-    # Non-interactive
+    # Non-interactive(this is useful if you put it in your install script!)
     bash -c "bash <(curl -sL https://git.io/Jv0e4) --yes"
     ```
 
