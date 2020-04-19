@@ -108,9 +108,9 @@ You are going to want to update to make this face smile, I promise!
 
 ### Backlight control slider
 
-You can see how bright your screen is. And you can slide it and change the brightness by pressing brightness button on your keyboard or scrolling with mouse wheel/touchpad.
+You can see how bright your screen is. And you can slide it and change the brightness of your screen backlight by pressing brightness button on your keyboard or scrolling with mouse wheel/touchpad.
 
-Now let me show you the way to change the brightness by scrolling with mouse cursor.
+Now let me show you the way to change the brightness by scrolling with mouse wheel/touchpad.
 
 ![backlight_slider](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/backlight-slide.gif)
 
