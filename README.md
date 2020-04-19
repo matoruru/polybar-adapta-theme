@@ -75,7 +75,7 @@ From the left,
 - Google
   - Open Google search page.
 - ...
-- ..., remainings is as it is you see!
+- ..., you can customize it as you like ❤️
 
 
 ### Workspace display
