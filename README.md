@@ -92,7 +92,7 @@ This feature is like the images and the table below.
 
 ### Package update monitor
 
-It is very good feature I think. You can get whether there is some package updates or not.
+It is very good feature. You can get whether there are some package updates or not.
 If you see **"smile" and 0**, it means **no package updates found**. On the other hand if you see **"frown (not smile)" and more than 0**, it means **some package updates found**.
 
 | Some packages need to be updated | Latest |
@@ -108,28 +108,40 @@ You are going to want to update to make this face smile, I promise!
 
 ### Backlight control slider
 
-Coming soon...
+You can see how bright your screen is. And you can slide it and change the brightness by pressing brightness button on your keyboard or scrolling with mouse wheel/touchpad.
+
+Now let me show you the way to change the brightness by scrolling with mouse cursor like the image below,
+![backlight_slider](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/backlight-slide.gif)
 
 
 ### ALSA volume control slider
 
-You can see how loud the speaker sound by the color or the muted icon.
-Like the images below,
+You can see how loud the speaker sounds from the color of bar or the muted icon.
 
 | Muted | Too quiet or good | A bit loud (Warning) | Too loud (Danger!) |
 | :---: | :---------------: | :------------------: | :----------------: |
 | ![volume_muted](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_muted.png) | ![volume_normal](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_normal.png) | ![volume_yellos](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_yellow.png) | ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume_red.png) |
 
+And as the same as "Backlight control slider" you can also slide it and change the volume by scrolling with mouse wheel/touchpad.
+
+![volume_slider](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume-slide.gif)
+
+And also you can make it mute/unmute by clicking with your mouse cursor.
+
+![volume-click](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/volume-click.gif)
+
+These are the easiest way to control the volume but of cource you can do the same by pressing volume control button on your keyboard too!
+
 ### Network connection monitor, inbound/outbound speeds
 
-You can get information about how fast your network speed. like the animation below,
+You can get information about how fast your network speed.
 
 ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-network-speed.gif)
 
 
 ### CPU monitor
 
-You can get information about how many and well CPUs works, easily and immediately. like the animation below.
+You can get information about how many and well CPUs works, easily and immediately.
 
 ![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-cpus.gif)
 
@@ -137,7 +149,6 @@ You can get information about how many and well CPUs works, easily and immediate
 ### Battery monitor
 
 You can see how much remains battery by the color and the value.
-Like the images below,
 
 | Charging | Good | Low battery | Too low battery |
 | :------: | :--: | :---------: | :-------------: |
