@@ -110,7 +110,8 @@ You are going to want to update to make this face smile, I promise!
 
 You can see how bright your screen is. And you can slide it and change the brightness by pressing brightness button on your keyboard or scrolling with mouse wheel/touchpad.
 
-Now let me show you the way to change the brightness by scrolling with mouse cursor like the image below,
+Now let me show you the way to change the brightness by scrolling with mouse cursor.
+
 ![backlight_slider](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/backlight-slide.gif)
 
 
