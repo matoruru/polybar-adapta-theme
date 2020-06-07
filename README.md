@@ -40,7 +40,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 
 We are using the exact same colors as Adapta-Nokto for this theme! 😊
 
-| Where is it used | Color code | sample |
+| Where is it used | Color code | Sample |
 | --- | :---: | :---: |
 | Background | #222D32 | ![color-222D32.png](https://qiita-image-store.s3.amazonaws.com/0/304979/da855fc7-b885-e556-acd4-adc376732e15.png) |
 | Text | #CFD8DC | ![color-CFD8DC.png](https://qiita-image-store.s3.amazonaws.com/0/304979/4927fa2f-75f7-f5dd-25f0-ccaccaa28eb9.png) |
