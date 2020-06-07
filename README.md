@@ -35,6 +35,20 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 ![screenshot_2](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_empty_1.png)
 ![screenshot_4](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/screenshot_2.png)
 
+## Color code
+
+These are the exact same colors as Adapta-Nokto! 😊
+
+| Where is it used | Color code | sample |
+| --- | :---: | :---: |
+| Background | #222D32 | ![color-222D32.png](https://qiita-image-store.s3.amazonaws.com/0/304979/da855fc7-b885-e556-acd4-adc376732e15.png) |
+| Text | #CFD8DC | ![color-CFD8DC.png](https://qiita-image-store.s3.amazonaws.com/0/304979/4927fa2f-75f7-f5dd-25f0-ccaccaa28eb9.png) |
+| Under line | #00BCD4 | ![color-00BCD4.png](https://qiita-image-store.s3.amazonaws.com/0/304979/8c8ec983-df67-9654-c059-ac44df6b28a1.png) |
+| Seek bar (reached) | #4DB6AC | ![color-4DB6AC.png](https://qiita-image-store.s3.amazonaws.com/0/304979/8f4df38c-f5c6-73eb-ae7f-9d9df8fecbcf.png) |
+| Seek bar (not reached) | #475359 | ![color-475359.png](https://qiita-image-store.s3.amazonaws.com/0/304979/292a2727-3541-b26e-db7b-e2c859c56367.png) |
+| Warning (weak) | #C9BC0E | ![color-C9BC0E.png](https://qiita-image-store.s3.amazonaws.com/0/304979/4fdf8748-618c-0577-4c74-0f636ab67333.png) |
+| Warning (Strong) | #FF5252 | ![color-FF5252.png](https://qiita-image-store.s3.amazonaws.com/0/304979/99982ecc-b46a-7430-3116-c3c356205983.png) |
+
 ## Installation
 
 1. Run this command below:
