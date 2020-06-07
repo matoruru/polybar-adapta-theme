@@ -38,7 +38,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 
 ## Color code
 
-These are the exact same colors as Adapta-Nokto! 😊
+We are using the exact same colors as Adapta-Nokto for this theme! 😊
 
 | Where is it used | Color code | sample |
 | --- | :---: | :---: |
