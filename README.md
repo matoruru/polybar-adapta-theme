@@ -9,6 +9,7 @@ A Polybar theme based on **Adapta-Nokto Gtk+ theme**, **Material Design Guidelin
 * [Capture animation (right side)](#capture-animation-right-side)
 * [Capture animation (left side)](#capture-animation-left-side)
 * [Screenshots](#screenshots)
+* [Color code](#color-code)
 * [Installation](#installation)
 * [Features](#features)
   * [App icons](#app-icons)
