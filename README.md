@@ -50,6 +50,11 @@ We are using the exact same colors as Adapta-Nokto for this theme! 😊
 | Warning (weak) | #C9BC0E | ![color-C9BC0E.png](https://qiita-image-store.s3.amazonaws.com/0/304979/4fdf8748-618c-0577-4c74-0f636ab67333.png) |
 | Warning (Strong) | #FF5252 | ![color-FF5252.png](https://qiita-image-store.s3.amazonaws.com/0/304979/99982ecc-b46a-7430-3116-c3c356205983.png) |
 
+## Font
+
+- Fantasque Sans Mono
+- Iosevka Nerd Font Mono
+
 ## Installation
 
 1. Run this command below:
