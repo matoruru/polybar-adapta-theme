@@ -24,15 +24,15 @@ fixed-center = true
 line-size = 2
 background = ${colors.bg}
 foreground = ${colors.fg}
-font-0 = "Fantasque Sans Mono:pixelsize=10;3"
-font-1 = "Iosevka Nerd Font:pixelsize=14;3"
-font-2 = "Iosevka Nerd Font:pixelsize=11;3"
+font-0 = "Fantasque Sans Mono:pixelsize=10;2"
+font-1 = "Iosevka Nerd Font Mono:pixelsize=22;4"
+font-2 = "Iosevka Nerd Font Mono:pixelsize=13;3"
 cursor-click = pointer
 ;==========================================================
 
 
 
-;====Module settings+======================================
+;====Module settings======================================
 modules-left = windows explorer google amazon github reddit facebook youtube workspaces-xmonad
 modules-center = date
 modules-right = pkg xbacklight volume wlan cpu-graph memory battery powermenu
@@ -183,12 +183,12 @@ click-left = xdg-open https://www.youtube.com/ &
 [module/date]
 type = internal/date
 interval = 1
-label =  %time%
-label-padding = 1
-;label-background = ${colors.shade1}
-label-underline = ${colors.adapta-cyan}
-time =   %a %d %b %Y %T
-label-margin = ${margin.for-modules}
+format-prefix = "  "
+format-underline = ${colors.adapta-cyan}
+format-padding = 1
+label = %time%
+label-font = 1
+time = %a %d %b %Y %T
 ;==========================================================
 
 
@@ -201,6 +201,7 @@ exec = bash ~/.config/polybar/checkupdates.sh
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 format-margin = ${margin.for-modules}
+format-font = 1
 click-left = kitty bash ~/.config/polybar/updates.sh &
 interval = 3600
 
@@ -213,12 +214,9 @@ label = 
 bar-width = 8
 bar-indicator = 
 bar-indicator-foreground = ${colors.adapta-lightgreen}
-bar-indicator-font = 2
 bar-fill = ─
-bar-fill-font = 2
 bar-fill-foreground = ${colors.adapta-lightgreen}
 bar-empty = ─
-bar-empty-font = 2
 bar-empty-foreground = ${colors.adapta-grey}
 ;format-margin = ${margin.for-modules}
 
@@ -243,11 +241,8 @@ bar-volume-foreground-7 = ${colors.adapta-red}
 bar-volume-gradient = false
 bar-volume-indicator = 
 bar-volume-indicator-foreground = ${colors.adapta-lightgreen}
-bar-volume-indicator-font = 2
 bar-volume-fill = ─
-bar-volume-fill-font = 2
 bar-volume-empty = ─
-bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.adapta-grey}
 format-muted-margin = ${margin.for-modules}
 format-volume-margin = ${margin.for-modules}
@@ -257,26 +252,13 @@ type = internal/network
 interface = wlp2s0
 interval = 0.1
 format-connected = <label-connected>
-;format-connected-background = ${colors.shade2}
 format-connected-underline = ${colors.adapta-cyan}
 format-connected-padding = 1
-label-connected =  %upspeed:9%  %downspeed:9%
-;label-connected =  %upspeed:9%  %downspeed:9%
+label-connected = %upspeed:9% %downspeed:9%
 format-disconnected = <label-disconnected>
 format-disconnected-padding = 1
-format-disconnected-underline = ${colors.adapta-cyan}
+format-disconnected-underline = ${colors.adapta-red}
 label-disconnected = 睊
-;format-connected-margin = ${margin.for-modules}
-;format-disconnected-margin = ${margin.for-modules}
-
-[module/cpu-value]
-type = internal/cpu
-interval = 0.1
-format-prefix = " "
-format-underline = ${colors.adapta-cyan}
-format-margin = ${margin.for-modules}
-format-padding = 1
-label = %percentage:2%%
 
 [module/cpu-graph]
 type = internal/cpu
@@ -308,9 +290,9 @@ type = internal/memory
 interval = 0.1
 format-prefix = " "
 format-underline = ${colors.adapta-cyan}
-;format-margin = ${margin.for-modules}
 format-padding = 1
 label = %percentage_used:2%%
+label-font = 1
 
 [module/battery]
 type = internal/battery
@@ -333,6 +315,7 @@ format-charging-margin = ${margin.for-modules}
 format-discharging-margin = ${margin.for-modules}
 format-full-margin = ${margin.for-modules}
 format-full-prefix = " "
+format-full-font = 3
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
@@ -350,6 +333,7 @@ ramp-capacity-3-foreground = ${colors.adapta-red}
 ramp-capacity-4-foreground = ${colors.adapta-yellow}
 ramp-capacity-5-foreground = ${colors.adapta-yellow}
 ramp-capacity-foreground   = ${colors.fg}
+ramp-capacity-font = 3
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
@@ -358,7 +342,7 @@ animation-charging-4 = 
 animation-charging-5 = 
 animation-charging-6 = 
 animation-charging-foreground = ${colors.fg}
-animation-charging-framerate = 750
+animation-charging-framerate = 450
 
 [module/powermenu]
 type = custom/text
