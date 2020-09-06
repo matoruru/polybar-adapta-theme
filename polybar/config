@@ -261,7 +261,7 @@ label-disconnected = 睊
 [module/cpu-graph]
 type = internal/cpu
 interval = 0.08
-format =   <ramp-coreload>
+format =  <ramp-coreload>
 format-underline = ${colors.adapta-cyan}
 format-margin = ${margin.for-modules}
 format-padding = 1
