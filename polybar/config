@@ -36,7 +36,7 @@ cursor-click = pointer
 ;====Module settings======================================
 modules-left = windows explorer google amazon github reddit facebook youtube workspaces-xmonad
 modules-center = date
-modules-right = pkg xbacklight volume wlan cpu-graph memory battery powermenu
+modules-right = pkg pkg-daemon xbacklight volume wlan cpu-graph memory battery powermenu
 ;==========================================================
 
 
@@ -194,14 +194,19 @@ time = %a %d %b %Y %T
 ;====Right modules=========================================
 [module/pkg]
 type = custom/script
-exec = bash ~/.config/polybar/checkupdates.sh
-;format-background = ${colors.shade2}
+exec = tail -F /tmp/.polybar-checkupdates-log
+exec-if = [ -p /tmp/.polybar-checkupdates-log ]
+tail = true
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
 format-margin = ${margin.for-modules}
 format-font = 1
 click-left = kitty bash ~/.config/polybar/updates.sh &
-interval = 3600
+
+[module/pkg-daemon]
+type = custom/script
+exec = bash ~/.config/polybar/checkupdates.sh
+interval = 1800
 
 [module/xbacklight]
 type = internal/xbacklight
