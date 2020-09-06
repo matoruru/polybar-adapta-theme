@@ -27,7 +27,7 @@ foreground = ${colors.fg}
 font-0 = "Fantasque Sans Mono:pixelsize=10;2"
 font-1 = "Iosevka Nerd Font Mono:pixelsize=22;4"
 font-2 = "Iosevka Nerd Font Mono:pixelsize=13;2"
-font-3 = "Iosevka Nerd Font Mono:pixelsize=13;2"
+font-3 = "Iosevka Nerd Font Mono:pixelsize=12;4"
 cursor-click = pointer
 ;==========================================================
 
