@@ -26,7 +26,8 @@ background = ${colors.bg}
 foreground = ${colors.fg}
 font-0 = "Fantasque Sans Mono:pixelsize=10;2"
 font-1 = "Iosevka Nerd Font Mono:pixelsize=22;4"
-font-2 = "Iosevka Nerd Font Mono:pixelsize=13;3"
+font-2 = "Iosevka Nerd Font Mono:pixelsize=13;2"
+font-3 = "Iosevka Nerd Font Mono:pixelsize=13;2"
 cursor-click = pointer
 ;==========================================================
 
@@ -95,7 +96,6 @@ format-padding = 1
 ;icon-9 = 10;❿
 icon-default = 
 format = <label-state>
-;format-background = ${colors.shade2}
 label-active = 
 label-occupied = 
 label-urgent = 
@@ -123,7 +123,6 @@ click-left = nautilus &
 type = custom/text
 content = 
 content-padding = 1
-;content-margin = 1
 content-foreground = ${colors.fg}
 content-underline = ${colors.adapta-cyan}
 click-left = xdg-open https://www.google.com/ &
@@ -150,7 +149,6 @@ click-left = xdg-open https://www.github.com/ &
 [module/reddit]
 type = custom/text
 content = 
-;content = 
 content-padding = 1
 content-margin = 1
 content-foreground = ${colors.fg}
@@ -263,7 +261,7 @@ label-disconnected = 睊
 [module/cpu-graph]
 type = internal/cpu
 interval = 0.08
-format = " <ramp-coreload>"
+format =   <ramp-coreload>
 format-underline = ${colors.adapta-cyan}
 format-margin = ${margin.for-modules}
 format-padding = 1
@@ -283,15 +281,15 @@ ramp-coreload-6 = ▇
 ramp-coreload-6-foreground = ${colors.adapta-red}
 ramp-coreload-7 = █
 ramp-coreload-7-foreground = ${colors.adapta-red}
-ramp-coreload-font = 3
+ramp-coreload-font = 4
 
 [module/memory]
 type = internal/memory
 interval = 0.1
-format-prefix = " "
+format-prefix = 
 format-underline = ${colors.adapta-cyan}
 format-padding = 1
-label = %percentage_used:2%%
+label = %percentage_used:3%%
 label-font = 1
 
 [module/battery]
@@ -299,23 +297,25 @@ type = internal/battery
 full-at = 99
 battery = CMB0
 adapter = ADP1
+
 format-charging = <animation-charging> <label-charging>
-;format-charging-background = ${colors.shade2}
 format-charging-underline = ${colors.adapta-cyan}
 format-charging-padding = 1
-label-charging = %percentage%%
+label-charging = %percentage:2%%
+format-charging-margin = ${margin.for-modules}
+
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${colors.adapta-cyan}
 format-discharging-padding = 1
 label-discharging = %percentage:2%%
-format-full = <label-full>
+format-discharging-margin = ${margin.for-modules}
+
+format-full = <ramp-capacity> <label-full>
 format-full-underline = ${colors.adapta-cyan}
 format-full-padding = 1
-format-charging-margin = ${margin.for-modules}
-format-discharging-margin = ${margin.for-modules}
+label-full = %percentage:2%%
 format-full-margin = ${margin.for-modules}
-format-full-prefix = " "
-format-full-font = 3
+
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
