@@ -4,20 +4,14 @@ if [ ! -p "/tmp/.polybar-checkupdates-log" ]; then
     mkfifo /tmp/.polybar-checkupdates-log
 fi
 
-if ! updates_arch=$(checkupdates 2> /dev/null | wc -l); then
-    updates_arch=0
+if ! updates=$(yay -Qu 2> /dev/null | wc -l); then
+    updates=0
 fi
 
-if ! updates_aur=$(yay -Qua 2> /dev/null | wc -l); then
-    updates_aur=0
-fi
-
-updates=$(("$updates_arch" + "$updates_aur"))
-
-if [ "$updates" -gt 0 ]; then
-    result=" $updates"
+if [ "$updates" -eq 0 ]; then
+    face=""
 else
-    result=" $updates"
+    face=""
 fi
 
-echo "$result" > /tmp/.polybar-checkupdates-log
+echo $face $updates > /tmp/.polybar-checkupdates-log
