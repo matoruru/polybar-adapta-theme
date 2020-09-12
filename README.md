@@ -105,7 +105,7 @@ This feature is like the images and the table below.
 
 ![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
 
-| You are at | Some windows exists | Empty |
+| Current ws | Some windows exists | Empty |
 | :------: | :--: | :---------: |
 | ![workspaces_now](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_now.png) | ![workspaces_exists](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_exists.png) | ![workspaces_empty](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces_empty.png) |
 
