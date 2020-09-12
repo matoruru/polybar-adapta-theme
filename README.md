@@ -99,7 +99,7 @@ From the left,
 
 
 ### Workspace display
-This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Use it!
+This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Try it!
 
 This feature is like the images and the table below. 
 
