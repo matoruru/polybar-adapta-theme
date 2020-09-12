@@ -112,10 +112,12 @@ This feature is like the images and the table below.
 
 ### Package update monitor
 
+It's going to run every 30 minutes.
+
 This is very good feature. You can get whether there are some package updates or not.
 If you see **"smile" and 0**, it means **no package updates found**. On the other hand if you see **"frown (not smile)" and more than 0**, it means **some package updates found**. And we are using a named pipe (which is located /tmp/.polybar-checkupdates-log) for this feature so we can immediately make the face smile again after finishing the update.
 
-| Some packages need to be updated | Latest |
+| Some packages need to be updated | Up to date |
 | :--: | :--: |
 | ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) |
 
