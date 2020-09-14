@@ -115,17 +115,17 @@ This feature is like the images and the table below.
 It's going to run every 30 minutes.
 
 This is very good feature. You can get whether there are some package updates or not.
-If you see **"smile" and 0**, it means **no package updates found**. On the other hand if you see **"frown (not smile)" and more than 0**, it means **some package updates found**. And we are using a named pipe (which is located /tmp/.polybar-checkupdates-log) for this feature so we can immediately make the face smile again after finishing the update.
+If you see **"smile" and 0**, that means **no package updates found**. On the other hand if you see **"frown and more than 0**, that means **some package updates found**. And we use a named pipe (located /tmp/.polybar-checkupdates-log) for this feature so we can immediately make the face smile again showing spinning animation after finishing the update.
 
-| Some packages need to be updated | Up to date |
-| :--: | :--: |
-| ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) |
+| Needs to be updated | Up to date | Sync failed |
+| :--: | :--: | :--: |
+| ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) | ![syncfailed](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/syncfailed.png) |
 
 This animation shows you when the frown face change into smile,
 
-![volume_red](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-frown-smile.gif)
+![animation-frown-smile](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-frown-smile.gif)
 
-You are going to want to update to make this face smile, I promise!
+You'll want to update to see the smile!
 
 ### Backlight control slider
 
