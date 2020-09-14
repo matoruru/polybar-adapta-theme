@@ -66,7 +66,7 @@ We are using the exact same colors as Adapta-Nokto for this theme! 😊
     **or**
     
     ```bash
-    # Non-interactive(this is useful if you put it in your install script!)
+    # Non-interactive (this is useful if you want to put it in your automated script!)
     bash -c "bash <(curl -sL https://git.io/Jv0e4) --yes"
     ```
 
