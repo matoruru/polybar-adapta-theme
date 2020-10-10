@@ -57,13 +57,13 @@ We are using the exact same colors as Adapta-Nokto for this theme! 😊
 
 ## Installation
 
-1. Run this command below:
+1. Run the following command:
     ```bash
     # Interactive
     bash -c "bash <(curl -sL https://git.io/Jv0e4)"
     ```
     
-    **or**
+    or
     
     ```bash
     # Non-interactive (this is useful if you want to put it in your automated script!)
@@ -112,7 +112,7 @@ This feature is like the images and the table below.
 
 ### Package update monitor
 
-It's going to run every 30 minutes.
+It runs every 30 minutes.
 
 This is very good feature. You can get whether there are some package updates or not.
 If you see **"smile" and 0**, that means **no package updates found**. On the other hand if you see **"frown and more than 0**, that means **some package updates found**. And we use a named pipe (located /tmp/.polybar-checkupdates-log) for this feature so we can immediately make the face smile again showing spinning animation after finishing the update.
