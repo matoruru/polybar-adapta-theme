@@ -21,7 +21,7 @@ download () {
 }
 
 startInstall () {
-  ping www.google.com -i 0.2 -c 5 || { echo "Connection is not established..."; exit 1; }
+  ping www.google.com -i 0.2 -c 5 || { echo "No connection..."; exit 1; }
   download
   echo
   echo "Finished!"
