@@ -62,9 +62,9 @@ We are using the exact same colors as Adapta-Nokto for this theme! 😊
     # Interactive
     bash -c "bash <(curl -sL https://git.io/Jv0e4)"
     ```
-    
+
     or
-    
+
     ```bash
     # Non-interactive (this is useful if you want to put it in your automated script!)
     bash -c "bash <(curl -sL https://git.io/Jv0e4) --yes"
@@ -101,7 +101,7 @@ From the left,
 ### Workspace display
 This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Try it!
 
-This feature is like the images and the table below. 
+This feature is like the images and the table below.
 
 ![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
 
