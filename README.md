@@ -99,9 +99,10 @@ From the left,
 
 
 ### Workspace display
-This is a normal feature in some normal status bars. But in Polybar it is not true! You can get status of workspace from this feature. Try it!
 
-This feature is like the images and the table below.
+This is a normal feature in other normal status bars, but in Polybar it's not true. You can see the status of your workspaces with this feature. Try it!
+
+This feature looks like:
 
 ![workspaces](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/workspaces.png)
 
@@ -112,24 +113,22 @@ This feature is like the images and the table below.
 
 ### Package update monitor
 
-It runs every 30 minutes.
+This feature runs every 30 mins.
 
-This is very good feature. You can get whether there are some package updates or not.
-If you see **"smile" and 0**, that means **no package updates found**. On the other hand if you see **"frown and more than 0**, that means **some package updates found**. And we use a named pipe (located /tmp/.polybar-checkupdates-log) for this feature so we can immediately make the face smile again showing spinning animation after finishing the update.
+This is a very good feature. You can see if any packages need to be updated.
+If you saw **"smile" and 0**, that means **no updatable packages found**. On the other hand if you saw **"frown and more than 0**, that means **updatable packages found**. And we use a named pipe (which is created as `/tmp/.polybar-checkupdates-log`) for this feature. So we can immediately turn the face smile again showing a spin animation once finishing the update.
+
+![animation-frown-smile](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-frown-smile.gif)
 
 | Needs to be updated | Up to date | Sync failed |
 | :--: | :--: | :--: |
 | ![updated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/updated.png) | ![notupdated](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/notupdated.png) | ![syncfailed](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/syncfailed.png) |
 
-This animation shows you when the frown face change into smile,
-
-![animation-frown-smile](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-frown-smile.gif)
-
-You'll want to update to see the smile!
+You'll want to update to see the smile for sure!
 
 ### Backlight control slider
 
-You can see how bright your screen is. And you can slide it and change the brightness of your screen backlight by pressing brightness button on your keyboard or scrolling with mouse wheel/touchpad.
+You can see your screen's brightness level with a slider. You can slide it and change the brightness of your screen by pressing brightness button on your keyboard or scrolling with the mouse wheel/touchpad.
 
 Now let me show you the way to change the brightness by scrolling with mouse wheel/touchpad.
 
