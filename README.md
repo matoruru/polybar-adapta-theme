@@ -169,7 +169,7 @@ You can get information about how many and well CPUs works, easily and immediate
 
 ### Battery monitor
 
-You can see how much remains battery by the color and the value.
+You can see how much battery remains by the color and the value.
 
 | Charging | Good | Low battery | Too low battery |
 | :------: | :--: | :---------: | :-------------: |
