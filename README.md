@@ -1,6 +1,6 @@
 <h1 align="center">Polybar-Adapta-theme</h1>
 
-<p align="center">A Polybar theme influenced by **Adapta-Nokto Gtk+ theme**.</p>
+<p align="center">A <a href="https://github.com/polybar/polybar">Polybar</a> theme influenced by <b>Adapta-Nokto Gtk+ theme</b>.</p>
 
 ## Table of Contents
 
