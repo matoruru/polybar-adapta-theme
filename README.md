@@ -2,6 +2,9 @@
 
 <p align="center">A <a href="https://github.com/polybar/polybar">Polybar</a> theme influenced by <b>Adapta-Nokto Gtk+ theme</b>.</p>
 
+![right_animation](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation.gif)
+![left_animation](https://raw.githubusercontent.com/matoruru/imgs/master/polybar-adapta-theme/animation-workspaces.gif)
+
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
