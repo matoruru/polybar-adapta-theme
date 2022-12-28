@@ -13,7 +13,7 @@ download () {
   (
     cd ${DIR}
 
-    curl --remote-name "${REPO}"config \
+    curl --remote-name "${REPO}"config.ini \
          --remote-name "${REPO}"checkupdates.sh \
          --remote-name "${REPO}"updates.sh \
          --remote-name "${REPO}"launch.sh \
